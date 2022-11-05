@@ -10,17 +10,16 @@
   </head>
   <body>
     <article id="cocktail">
-      <h2>{{ name }}</h2>
-      <h3>Ingredients</h3>
+      <h2><a v-bind:href="link"> {{ name }}</a></h2>
+      <h3>{{ingredients}}</h3>
       <p>{{bourbon}}</p>
       <p>{{syrup}}</p>
       <p>{{bitters}}</p>
       <p>{{water}}</p>
       <p>{{orange}}</p>
-      <img src="/cocktail.jpg" alt="cocktail" />
+      <img v-bind:src="pic" alt="cocktail" />
     </article>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-
     <script src="app.js"></script>
   </body>
 </html>
