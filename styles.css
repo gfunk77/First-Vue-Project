@@ -16,7 +16,8 @@ article {
   margin: 3rem auto;
   padding: 1rem;
   width: 90vw;
-  max-width: 45rem;
+  max-width: 40rem;
+  max-height: 60rem;
   border-radius: 4px;
   box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
     0 8px 10px -6px rgb(0 0 0 / 0.1);
@@ -35,10 +36,20 @@ h3 {
   letter-spacing: 4px;
   margin-top: 0.5rem;
 }
+a {
+  text-decoration: none;
+  color: #222;
+}
+a:hover {
+  color: #d17979;
+  cursor: pointer;
+}
 img {
   display: block;
   width: 100%;
   object-fit: cover;
+  height: 20rem;
+  border-radius: 4px;
 }
 p {
   margin: 1rem auto;
