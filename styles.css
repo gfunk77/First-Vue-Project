@@ -30,6 +30,11 @@ h2 {
   border-bottom: 1px solid #cfc8c8;
   padding: 1rem;
 }
+h3 {
+  text-align: center;
+  letter-spacing: 4px;
+  margin-top: 0.5rem;
+}
 img {
   display: block;
   width: 100%;
